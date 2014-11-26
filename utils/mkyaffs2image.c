@@ -41,9 +41,9 @@ unsigned yaffs_trace_mask=0;
 #define MAX_OBJECTS 10000
 
 // Adjust these to match your NAND LAYOUT:
-#define chunkSize 2048
-#define spareSize 64
-#define pagesPerBlock 64
+#define chunkSize 4096		/* K9GAG08X0D pagesize is 4K+218bytes ~~~~ modify by guanc ~~~~ */
+#define spareSize 218		/* K9GAG08X0D sparesize per page is 218byges ~~~~ modify by guanc ~~~~ */
+#define pagesPerBlock 128	/* K9GAG08X0D has 128pages per block ~~~~ modify by guanc ~~~~ */
 
 
 

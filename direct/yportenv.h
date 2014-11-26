@@ -17,6 +17,8 @@
 #ifndef __YPORTENV_H__
 #define __YPORTENV_H__
 
+/* ~~~~ add by guanc ~~~~ */
+#define CONFIG_YAFFS_DEFINES_TYPES
 
 /* Definition of types */
 #ifdef CONFIG_YAFFS_DEFINES_TYPES
